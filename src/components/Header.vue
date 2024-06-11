@@ -14,7 +14,7 @@ function closeMenu() {
 </script>
 
 <template>
-  <header class="flex items-center justify-between px-4 gap-8 border-b-2 border-black h-20 bg-[#d9d9d9]">
+  <header class="flex items-center justify-between px-4 gap-8 border-b-2 border-black h-20 bg-[#ffffff]">
     <RouterLink to="/">
       <img src="/public/img/logoheader.png" class="w-20" />
     </RouterLink>
@@ -42,32 +42,21 @@ function closeMenu() {
         <li>
           <RouterLink
             class="font-title block p-4 rounded-lg"
-            to="/profil/"
+            to="/offre"
             @click="closeMenu"
-            >Profil</RouterLink
+            >Offres</RouterLink
           >
         </li>
         <li>
-          <RouterLink class="font-title block p-4 rounded-lg" to="/realisation" @click="closeMenu"
-            >Réalisations</RouterLink
+          <RouterLink class="font-title block p-4 rounded-lg" to="/alltuto" @click="closeMenu"
+            >Tuto</RouterLink
           >
         </li>
         <li>
           <RouterLink class="font-title block p-4 rounded-lg" to="/frise" @click="closeMenu"
-            >Frise</RouterLink
+            >Aide</RouterLink
           >
         </li>
-        <li>
-          <RouterLink class="font-title block p-4 rounded-lg" to="/contact" @click="closeMenu"
-            >Nous contacter</RouterLink
-          >
-        </li>
-        <li>
-          <RouterLink class="font-title block p-4 rounded-lg" to="/billeterie" @click="closeMenu"
-            >Réserver</RouterLink
-          >
-        </li>
-
       </ul>
     </nav>
   </header>

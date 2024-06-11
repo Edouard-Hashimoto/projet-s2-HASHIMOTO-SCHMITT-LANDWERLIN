@@ -60,12 +60,12 @@ import FooterPage from '@/components/Footer.vue'
   <div class="w-[50%] h-[5px] bg-black m-10 mx-auto"></div>
   <div class="flex flex-col lg:flex-row justify-center items-center gap-4 mb-10">
     <div class="p-4 rounded-lg w-96 flex flex-col items-center justify-center">
-      <img src="/public/img/1.webp" alt="" class="w-96 rounded-2xl" />
+      <img src="/public/img/1.webp" alt="" class="w-96 rounded-2xl transition-all duration-300 ease-in-out hover:scale-110" />
       <p class="font-title text-2xl lg:text-3xl text-center mt-2">Demande de Permis de conduire</p>
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
-        Décourir
+        Découvrir
         <span
           class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-blue-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
         ></span>
@@ -87,10 +87,11 @@ import FooterPage from '@/components/Footer.vue'
         <span class="sm:inline lg:block">Déclaration des </span>
         <span class="sm:inline lg:block lg:mb-2">impôts</span>
       </p>
+      <RouterLink to="/tuto1">
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
-        Décourir
+        Découvrir
         <span
           class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-red-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
         ></span>
@@ -105,6 +106,7 @@ import FooterPage from '@/components/Footer.vue'
           >Maintenant</span
         >
       </button>
+    </RouterLink>
     </div>
     <div class="p-4 rounded-lg w-96 flex flex-col items-center justify-center">
       <img src="/public/img/3.webp" alt="" class="w-96 rounded-2xl" />
@@ -115,7 +117,7 @@ import FooterPage from '@/components/Footer.vue'
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
-        Décourir
+        Découvrir
         <span
           class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-green-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
         ></span>
@@ -142,7 +144,7 @@ import FooterPage from '@/components/Footer.vue'
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
-        Décourir
+        Découvrir
         <span
           class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-purple-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
         ></span>
@@ -164,7 +166,7 @@ import FooterPage from '@/components/Footer.vue'
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
-        Décourir
+        Découvrir
         <span
           class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-yellow-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
         ></span>

@@ -20,9 +20,7 @@ import FooterPage from '@/components/Footer.vue'
             <p class="mt-2 text-sm text-gray-500 mb-6">
               Faites remplir un seul document par un professionel
             </p>
-                        <p class="mt-2 text-sm text-gray-500 mb-6">
-              Envoi payant pour 2.99€
-            </p>
+            <p class="mt-2 text-sm text-gray-500 mb-6">Envoi payant pour 2.99€</p>
           </div>
           <div class="mt-6">
             <p>
@@ -74,9 +72,11 @@ import FooterPage from '@/components/Footer.vue'
       <div class="px-6 py-8 sm:p-10 sm:pb-6">
         <div class="grid items-center justify-center w-full grid-cols-1 text-left">
           <div>
-            <h2 class="text-2xl font-medium tracking-tighter text-gray-600 lg:text-3xl">Option Suivi</h2>
+            <h2 class="text-2xl font-medium tracking-tighter text-gray-600 lg:text-3xl">
+              Option Suivi
+            </h2>
             <p class="mt-2 text-sm text-gray-500">
-              Obtenez  le suivie de votre document en temps réel 
+              Obtenez le suivie de votre document en temps réel
             </p>
           </div>
           <div class="mt-6">
