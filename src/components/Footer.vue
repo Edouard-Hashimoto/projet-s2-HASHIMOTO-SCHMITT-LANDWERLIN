@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="w-full h-[300px] lg:h-[600px] relative bg-black">
+  <div class="w-full h-[300px] lg:h-[400px] relative bg-black">
     <div class="flex items-start">
     </div>
     <div class="flex flex-col justify-center items-center text-center text-white mb-10">
