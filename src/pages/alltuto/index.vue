@@ -47,7 +47,7 @@ import FooterPage from '@/components/Footer.vue'
         <div class="flex items-center justify-center">
           <img src="/public/img/5.webp" class="w-[600px]" />
         </div>
-        <p class="text-center mt-4 lg:text-3xl">Demande de carte d’identité</p>
+        <p class="text-center mt-4 lg:text-3xl">Demande de carte de caca</p>
       </div>
     </div>
   </div>
