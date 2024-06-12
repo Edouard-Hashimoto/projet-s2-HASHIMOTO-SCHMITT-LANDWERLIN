@@ -59,8 +59,12 @@ import FooterPage from '@/components/Footer.vue'
   </div>
   <div class="w-[50%] h-[5px] bg-black m-10 mx-auto"></div>
   <div class="flex flex-col lg:flex-row justify-center items-center gap-4 mb-10">
-    <div class="p-4 rounded-lg w-96 flex flex-col items-center justify-center">
-      <img src="/public/img/1.webp" alt="" class="w-96 rounded-2xl transition-all duration-300 ease-in-out hover:scale-110" />
+    <div class="p-4 rounded-lg w-96 flex flex-col items-center justify-center overflow-hidden">
+      <img
+        src="/public/img/1.webp"
+        alt=""
+        class="w-96 rounded-2xl"
+      />
       <p class="font-title text-2xl lg:text-3xl text-center mt-2">Demande de Permis de conduire</p>
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
@@ -88,25 +92,25 @@ import FooterPage from '@/components/Footer.vue'
         <span class="sm:inline lg:block lg:mb-2">impôts</span>
       </p>
       <RouterLink to="/tuto1">
-      <button
-        class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
-      >
-        Découvrir
-        <span
-          class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-red-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
-        ></span>
-        <span
-          class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-red-400 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
-        ></span>
-        <span
-          class="absolute w-60 h-40 -top-8 rotate-6 -left-2 bg-red-600 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
-        ></span>
-        <span
-          class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-16 z-10"
-          >Maintenant</span
+        <button
+          class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
         >
-      </button>
-    </RouterLink>
+          Découvrir
+          <span
+            class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-red-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+          ></span>
+          <span
+            class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-red-400 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+          ></span>
+          <span
+            class="absolute w-60 h-40 -top-8 rotate-6 -left-2 bg-red-600 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
+          ></span>
+          <span
+            class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-16 z-10"
+            >Maintenant</span
+          >
+        </button>
+      </RouterLink>
     </div>
     <div class="p-4 rounded-lg w-96 flex flex-col items-center justify-center">
       <img src="/public/img/3.webp" alt="" class="w-96 rounded-2xl" />
@@ -114,24 +118,26 @@ import FooterPage from '@/components/Footer.vue'
         <span class="sm:inline lg:block">Demande de </span>
         <span class="sm:inline lg:block lg:mb-2">passport</span>
       </p>
-      <button
-        class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
-      >
-        Découvrir
-        <span
-          class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-green-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
-        ></span>
-        <span
-          class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
-        ></span>
-        <span
-          class="absolute w-60 h-40 -top-8 rotate-6 -left-2 bg-green-600 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
-        ></span>
-        <span
-          class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-16 z-10"
-          >Maintenant</span
+      <RouterLink to="/tuto1">
+        <button
+          class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
         >
-      </button>
+          Découvrir
+          <span
+            class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-green-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+          ></span>
+          <span
+            class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-green-400 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+          ></span>
+          <span
+            class="absolute w-60 h-40 -top-8 rotate-6 -left-2 bg-green-600 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
+          ></span>
+          <span
+            class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-16 z-10"
+            >Maintenant</span
+          >
+        </button></RouterLink
+      >
     </div>
   </div>
   <div class="flex flex-col lg:flex-row justify-center items-center gap-4">
@@ -163,24 +169,26 @@ import FooterPage from '@/components/Footer.vue'
     <div class="p-4 rounded-lg w-96 flex flex-col items-center justify-center">
       <img src="/public/img/5.webp" alt="" class="w-96 rounded-2xl" />
       <p class="font-title text-2xl lg:text-3xl text-center mt-2">Demande de carte d’identité</p>
-      <button
-        class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
-      >
-        Découvrir
-        <span
-          class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-yellow-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
-        ></span>
-        <span
-          class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-yellow-400 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
-        ></span>
-        <span
-          class="absolute w-60 h-40 -top-8 rotate-6 -left-2 bg-yellow-600 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
-        ></span>
-        <span
-          class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-16 z-10"
-          >Maintenant</span
+      <RouterLink to="/tuto1">
+        <button
+          class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
         >
-      </button>
+          Découvrir
+          <span
+            class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-yellow-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+          ></span>
+          <span
+            class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-yellow-400 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+          ></span>
+          <span
+            class="absolute w-60 h-40 -top-8 rotate-6 -left-2 bg-yellow-600 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
+          ></span>
+          <span
+            class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-16 z-10"
+            >Maintenant</span
+          >
+        </button></RouterLink
+      >
     </div>
   </div>
   <div class="mt-20 mb-10">
