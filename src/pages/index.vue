@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HeaderPage from '@/components/Header.vue'
 import FooterPage from '@/components/Footer.vue'
+import { RouterLink } from 'vue-router';
 </script>
 
 <template>
@@ -60,12 +61,9 @@ import FooterPage from '@/components/Footer.vue'
   <div class="w-[50%] h-[5px] bg-black m-10 mx-auto"></div>
   <div class="flex flex-col lg:flex-row justify-center items-center gap-4 mb-10">
     <div class="p-4 rounded-lg w-96 flex flex-col items-center justify-center overflow-hidden">
-      <img
-        src="/public/img/1.webp"
-        alt=""
-        class="w-96 rounded-2xl"
-      />
+      <img src="/public/img/1.webp" alt="" class="w-96 rounded-2xl" />
       <p class="font-title text-2xl lg:text-3xl text-center mt-2">Demande de Permis de conduire</p>
+      <RouterLink to="/tuto2">
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
@@ -83,7 +81,7 @@ import FooterPage from '@/components/Footer.vue'
           class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-16 z-10"
           >Maintenant</span
         >
-      </button>
+      </button></RouterLink>
     </div>
     <div class="p-4 rounded-lg w-96 flex flex-col items-center justify-center">
       <img src="/public/img/2.webp" alt="" class="w-96 rounded-2xl" />
@@ -91,7 +89,7 @@ import FooterPage from '@/components/Footer.vue'
         <span class="sm:inline lg:block">Déclaration des </span>
         <span class="sm:inline lg:block lg:mb-2">impôts</span>
       </p>
-      <RouterLink to="/tuto1">
+      <RouterLink to="/tuto4">
         <button
           class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
         >
@@ -147,6 +145,7 @@ import FooterPage from '@/components/Footer.vue'
         <span class="sm:inline lg:block">Demande de </span>
         <span class="sm:inline lg:block lg:mb-2">visa</span>
       </p>
+      <RouterLink to="/tuto3">
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
@@ -165,6 +164,7 @@ import FooterPage from '@/components/Footer.vue'
           >Maintenant</span
         >
       </button>
+    </RouterLink>
     </div>
     <div class="p-4 rounded-lg w-96 flex flex-col items-center justify-center">
       <img src="/public/img/5.webp" alt="" class="w-96 rounded-2xl" />

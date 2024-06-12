@@ -11,7 +11,7 @@ import FooterPage from '@/components/Footer.vue'
   <div class="w-[50%] h-1 bg-black m-10 mx-auto"></div>
   <div class="overflow-x-auto flex space-x-4 p-4 snap-x snap-mandatory">
     <div class="w-full flex-shrink-0 snap-center flex items-center justify-center">
-      <div class="bg-white rounded-lg shadow-lg p-6 w-[50%]">
+      <div class="bg-white rounded-lg shadow-lg p-6 w-[90%] lg:w-[50%]">
         <div class="flex items-center justify-center">
           <img src="/public/img/1.webp" class="w-[600px] transition-all duration-300 ease-in-out hover:scale-105" />
         </div>
@@ -19,7 +19,7 @@ import FooterPage from '@/components/Footer.vue'
       </div>
     </div>
     <div class="w-full flex-shrink-0 snap-center flex items-center justify-center">
-      <div class="bg-white rounded-lg shadow-lg p-6 w-[50%]">
+      <div class="bg-white rounded-lg shadow-lg p-6 w-[90%] lg:w-[50%]">
         <div class="flex items-center justify-center">
           <img src="/public/img/2.webp" class="w-[600px] transition-all duration-300 ease-in-out hover:scale-105" />
         </div>
@@ -27,7 +27,7 @@ import FooterPage from '@/components/Footer.vue'
       </div>
     </div>
     <div class="w-full flex-shrink-0 snap-center flex items-center justify-center">
-      <div class="bg-white rounded-lg shadow-lg p-6 w-[50%]">
+      <div class="bg-white rounded-lg shadow-lg p-6 w-[90%] lg:w-[50%]">
         <div class="flex items-center justify-center">
           <img src="/public/img/3.webp" class="w-[600px] transition-all duration-300 ease-in-out hover:scale-105" />
         </div>
@@ -35,7 +35,7 @@ import FooterPage from '@/components/Footer.vue'
       </div>
     </div>
     <div class="w-full flex-shrink-0 snap-center flex items-center justify-center">
-      <div class="bg-white rounded-lg shadow-lg p-6 w-[50%]">
+      <div class="bg-white rounded-lg shadow-lg p-6 w-[90%] lg:w-[50%]">
         <div class="flex items-center justify-center">
           <img src="/public/img/4.webp" class="w-[600px] transition-all duration-300 ease-in-out hover:scale-105" />
         </div>
@@ -43,7 +43,7 @@ import FooterPage from '@/components/Footer.vue'
       </div>
     </div>
     <div class="w-full flex-shrink-0 snap-center flex items-center justify-center">
-      <div class="bg-white rounded-lg shadow-lg p-6 w-[50%]">
+      <div class="bg-white rounded-lg shadow-lg p-6 w-[90%] lg:w-[50%]">
         <div class="flex items-center justify-center">
           <img src="/public/img/5.webp" class="w-[600px] transition-all duration-300 ease-in-out hover:scale-105" />
         </div>

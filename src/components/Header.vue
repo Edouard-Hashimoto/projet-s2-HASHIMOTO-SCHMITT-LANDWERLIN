@@ -15,7 +15,7 @@ function closeMenu() {
 
 <template>
   <header
-    class="flex items-center justify-between px-4 gap-8 border-b-2 border-black h-20 bg-[#ffffff]"
+    class="flex items-center w-full justify-between px-4 gap-8 border-b-2 border-black h-20 bg-[#ffffff]"
   >
     <RouterLink to="/">
       <img src="/public/img/logoheader.png" class="w-20" />
@@ -28,13 +28,13 @@ function closeMenu() {
       <RouterLink to="/connexion">
         <img
           src="/public/img/connexion.png"
-          class="relative z-10 flex h-12 w-12 flex-col justify-between lg:hidden *:block *:ease *:h-[2px] *:w-full"
+          class="relative z-10 flex h-12 w-16 flex-col justify-between lg:hidden *:block *:ease *:h-[2px] *:w-full"
         />
       </RouterLink>
       <button @click="activeMenu = !activeMenu">
         <img
           src="/public/img/menu.svg"
-          class="relative z-10 flex h-12 w-12 flex-col justify-between lg:hidden *:block *:ease *:h-[2px] *:w-full"
+          class="relative z-10 flex h-10 w-10 flex-col justify-between lg:hidden *:block *:ease *:h-[2px] *:w-full"
         />
         <span :class="{ 'translate-y-[5px] rotate-45': activeMenu }"></span>
         <span :class="{ '-translate-y-[5px] -rotate-45': activeMenu }"></span>

@@ -6,52 +6,57 @@ import FooterPage from '@/components/Footer.vue'
 <template>
   <HeaderPage />
   <div
-    class="flex flex-col justify-center items-center h-[600px] bg-[url('/img/fondtuto1.png')] bg-cover"
+    class="flex flex-col justify-center items-center h-[600px] bg-[url('/img/fondtuto2.png')] bg-cover"
   >
     <p class="text-4xl lg:text-4xl xl:text-6xl text-center lg:text-right lg:pl-[900px]">
-      Demande de carte d’identité
+      Demande de permis
     </p>
-    </div>
+  </div>
   <div class="w-full grid p-8 lg:grid-cols-2">
     <div class="w-full p-8 relative duration-500 hover:[transform:rotate3d(20,-10,1,30deg)]">
-      <img src="/public/img/image_cerfa_cni.webp" class="w-[600px]" alt="photo tuto" />
+      <img src="/public/img/permis.png" class="w-[600px]" alt="photo tuto" />
     </div>
     <div class="w-full p-8 lg:text-xl text-l">
-            <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center">
         <p class="text-2xl lg:text-3xl">Tutoriel</p>
       </div>
       <div class="w-[30%] h-[5px] bg-black m-10 mx-auto"></div>
       <p class="mb-10">
-        Pour faire une demande de carte d’identité/passeport vous devez remplir ce formulaire CERFA.
+        Tout d’abord, vous devez vous connecter ou créer un compte ANTS : Vous devez vous connecter
+        à votre compte sur le site de l’ANTS (Agence nationale des titres sécurisés). Si vous n’avez
+        pas de compte, vous pouvez en créer un.
       </p>
-      <p class="mb-10"><strong>Il y a deux façon de l’obtenir:</strong></p>
+      <p class="mb-10">
+        Ensuite, cliquer sur <strong>"Nouvelle demande"</strong> : Une fois connecté à votre compte,
+        cliquez sur l’option “Nouvelle demande”.:
+      </p>
       <p>
-        <strong>-Vous pouvez faire une pré-demande en ligne sur le site de l’ANTS,</strong> en
-        renseignant vos informations personnelles et celles de vos parents. Vous recevrez ensuite un
-        numéro de pré-demande que vous devrez présenter à la mairie lors du dépôt du dossier. La
-        mairie récupérera vos données, vérifiera vos pièces justificatives et recueillera vos
-        empreintes.
+        Choisir le motif de votre demande: Sélectionnez l’option
+        <strong>“Je demande la fabrication d’un titre de permis de conduire”.</strong>
       </p>
       <p class="mb-10">
-        <strong>-Vous pouvez remplir le formulaire papier qui vous sera remis à la mairie.</strong> Il s’agit d’un
-        formulaire cartonné qui ne peut pas être téléchargé. Il doit être rempli à l’encre noire et
-        en lettres majuscules. Les informations à indiquer sur le formulaire sont les suivantes :
-        nom de famille, deuxième nom (si vous en avez un), prénoms, taille, date et lieu de
-        naissance, adresse, numéro de téléphone portable (si vous voulez être informé par SMS de la
-        fabrication de la carte), nom et prénom(s) des parents, date et lieu de naissance des
-        parents.
+        <strong>1. Informations personnelles : </strong>
+        Indiquez votre nom complet, votre adresse actuelle, votre date de naissance, et votre numéro
+        de téléphone.
       </p>
       <p class="mb-10">
-        <strong>Dans les deux cas, vous devrez fournir les documents suivants :</strong> <br />
-
-        -Une photo d’identité récente <br />
-
-        -Un justificatif de domicile <br />
-
-        -Un acte de naissance <br />
-
-        -Un justificatif de nationalité française (si vous êtes né à l’étranger ou si l’un de vos
-        parents est étranger).
+        <strong>2. Type de permis :</strong>
+        Précisez le type de permis que vous souhaitez obtenir, par exemple, permis de conduire pour
+        véhicules légers (catégorie B), permis de moto (catégorie A), etc.
+      </p>
+      <p class="mb-10">
+        <strong>3. École de conduite :</strong>
+        Si vous avez suivi des cours dans une école de conduite, fournissez les détails de l'école,
+        tels que le nom de l'école et son numéro d'agrément.
+      </p>
+      <p class="mb-10">
+        <strong>4. Signature :</strong>
+        Signez le document à l'endroit indiqué pour attester que toutes les informations que vous
+        avez fournies sont exactes et complètes.
+      </p>
+      <p class="mb-10">
+        <strong>5. Date :</strong>
+        Indiquez la date à laquelle vous signez le formulaire.
       </p>
     </div>
   </div>
@@ -61,7 +66,7 @@ import FooterPage from '@/components/Footer.vue'
       Consultez nos offres ci-dessous :
     </p>
     <div class="flex items-center justify-center mb-20">
-        <RouterLin to="/offre"></RouterLin>
+      <RouterLin to="/offre"></RouterLin>
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
