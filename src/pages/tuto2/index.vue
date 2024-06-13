@@ -70,7 +70,7 @@ import FooterPage from '@/components/Footer.vue'
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
-        Décourir
+        Découvrir
         <span
           class="absolute w-64 h-40 -top-8 rotate-6 -left-2 bg-pink-200 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
         ></span>

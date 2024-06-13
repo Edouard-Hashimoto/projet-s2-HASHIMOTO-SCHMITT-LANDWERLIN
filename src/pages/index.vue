@@ -7,9 +7,9 @@ import { RouterLink } from 'vue-router';
 <template>
   <HeaderPage />
   <div
-    class="flex flex-col justify-center items-center h-[600px] bg-[url('/img/fondaccueil.webp')] bg-cover bg-opacity-50"
+    class="flex flex-col justify-centerh-[600px] bg-[url('/img/fondaccueil.webp')] bg-cover bg-opacity-50"
   >
-    <p class="text-4xl lg:text-4xl xl:text-6xl text-center lg:text-right lg:pl-[900px]">
+    <p class="text-4xl lg:text-4xl xl:text-6xl text-center lg:text-right lg:right lg:mr-72 lg:mt-40">
       Le site qui vous <br />
       épargne la corvée <br />
       administrative
