@@ -3,14 +3,14 @@
   <div class="flex h-[800px] items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
     <div class="w-full max-w-md space-y-8">
       <div v-if="currentUser">
-        <h1 class="lg:text-4xl">Welcome {{ currentUser?.name }}</h1>
+        <h1 class="lg:text-4xl">Bienvenue {{ currentUser?.name }}</h1>
         <div>
           <button
             type="button"
             @click="doLogout"
             class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Logout
+            Déconnexion
           </button>
           <button
             type="button"
@@ -23,11 +23,11 @@
       </div>
       <div v-else class="bg-white shadow-2xl rounded-2xl overflow-hidden border-4 border-black">
         <h1 class="px-8 py-10 md:px-10 text-4xl font-extrabold text-center text-black">
-          {{ loginMode ? 'LOGIN' : 'CREATE ACCOUNT' }}
+          {{ loginMode ? 'CONNEXION' : 'INSCRIPTION' }}
         </h1>
         <div class="sm:col-span-2 sm:col-start-1 mt-2 p-8">
           <label for="username" class="block mb-3 text-sm font-medium text-black relative"
-            >Email Address</label
+            >Adresse mail</label
           >
           <div class="mt-2">
             <input
@@ -36,7 +36,7 @@
               name="username"
               id="username"
               autocomplete="none"
-              placeholder="Enter Email Address "
+              placeholder="Entrer l'adresse mail "
               class="block w-full px-4 py-3 mt-2 text-black bg-white border-2 rounded-lg focus:border-black focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-gray-500"
             />
           </div>
@@ -65,7 +65,7 @@
                 @click="doLogin"
                 class="w-[60%] mt-4 px-4 py-3 tracking-wide text-white transition-colors duration-200 transform bg-gradient-to-r from-black to-slate-800 rounded-lg hover:from-slate-800 hover:to-slate-500 mb-4"
               >
-                Login
+                Connexion
               </button>
 
               <button
@@ -73,7 +73,7 @@
                 @click="loginMode = false"
                 class="w-[60%] mb-10 px-4 py-3 tracking-wide text-white transition-colors duration-200 transform bg-gradient-to-r from-black to-slate-800 rounded-lg hover:from-slate-800 hover:to-slate-500"
               >
-                Create Account
+                S'inscrire
               </button>
             </div>
           </div>
@@ -81,7 +81,7 @@
         <div v-else>
           <div class="sm:col-span-2 sm:col-start-1 mt-2 p-8">
             <label for="fullName" class="block mb-3 text-sm font-medium text-black relative"
-              >Full Name</label
+              >Nom Prénom</label
             >
             <div class="mt-2">
               <input
@@ -90,7 +90,7 @@
                 name="fullName"
                 id="fullName"
                 autocomplete="none"
-                placeholder="Enter Full Name "
+                placeholder="Entrer votre nom complet "
                 class="block w-full px-4 py-3 mt-2 text-black bg-white border-2 rounded-lg focus:border-black focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-gray-500"
               />
             </div>
@@ -103,7 +103,7 @@
                 class="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm transition-colors duration-200 transform bg-gradient-to-r from-black to-slate-800
                  hover:from-slate-800 hover:to-slate-500"
               >
-                Save New User
+                Enregistrer le compte
               </button>
 
               <button

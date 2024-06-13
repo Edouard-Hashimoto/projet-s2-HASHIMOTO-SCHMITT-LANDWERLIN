@@ -38,7 +38,7 @@ const fetchTutos = async () => {
 }
 
 const getImageUrl = (tutoId: string, imagePath: string) => {
-  const url = `https://lazydocs.edouardhashimoto.fr:443/api/files/e0g6nbqh3tf4ypr/${tutoId}/${imagePath}?token=`
+  const url = `https://lazydocs.edouardhashimoto.fr:443/api/files/f7gxc96dqub0e5i/${tutoId}/${imagePath}?token=`
   console.log('Image URL:', url)
   return url
 }
