@@ -13,7 +13,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col lg:w-[900px] sm: space-y-1items-start mt-10 ml-4">
+      <div class="font-title flex flex-col lg:w-[600px] sm: space-y-1items-start mt-10 ml-4">
         <router-link to="/connexion" class="text-2xl">Connexion</router-link>
         <router-link to="/contact" class="text-2xl">Contact</router-link>
         <router-link to="/mentions-legales" class="text-2xl">Mentions légales</router-link>
