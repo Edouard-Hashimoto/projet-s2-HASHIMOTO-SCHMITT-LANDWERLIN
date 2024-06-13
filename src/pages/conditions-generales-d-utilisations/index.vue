@@ -19,7 +19,7 @@ import FooterPage from '@/components/Footer.vue'
     <p><strong>Compte utilisateur :</strong></p>
     <p>Certains services de notre site peuvent nécessiter la création d'un compte utilisateur. Vous êtes responsable de maintenir la confidentialité de vos identifiants de connexion et de toutes les activités qui se déroulent sous votre compte.</p>
     <p><strong>Propriété intellectuelle :</strong></p>
-    <p></p>
+    <p>Le site internet et son contenu sont protégés par le droit d'auteur et d'autres lois sur la propriété intellectuelle. Vous acceptez de respecter tous les avis de droits d'auteur et autres avis de propriété contenus sur le site.</p>
     <p><strong></strong></p>
     <p></p>
     <p><strong></strong></p>
