@@ -68,7 +68,7 @@ onMounted(fetchTutorials)
 <template>
   <HeaderPage />
   <div
-    class="h-96  lg:my-80 flex items-center justify-center bg-gradient from-slate-500 via-purple-500 to-purple-300"
+    class="h-96  my-80 flex items-center justify-center bg-gradient from-slate-500 via-purple-500 to-purple-300"
   >
     <div class="relative">
       <div
@@ -76,7 +76,7 @@ onMounted(fetchTutorials)
       ></div>
       <div
         id="form-container"
-        class="bg-white p-16 rounded-lg shadow-2xl w-[900px] relative z-10 transform transition duration-500 ease-in-out"
+        class="bg-white p-16 rounded-lg shadow-2xl w-80 lg:w-[900px] relative z-10 transform transition duration-500 ease-in-out"
       >
         <h2 id="form-title" class="text-center text-3xl font-bold mb-10 text-gray-800">
           Créer un tuto
