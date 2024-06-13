@@ -1,14 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../pages/index.vue'
-import Connexion from '../pages/connexion/index.vue'
+import AddTutoForm from '@/pages/addTuto/index.vue'
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/connexion', component: Connexion }
+  // Autres routes
+  {
+    path: '/add-tuto',
+    name: 'index',
+    component: AddTutoForm
+  }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(process.env.BASE_URL),
   routes
 })
 

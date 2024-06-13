@@ -1,0 +1,45 @@
+<script setup lang="ts">
+import HeaderPage from '@/components/Header.vue'
+import FooterPage from '@/components/Footer.vue'
+</script>
+<template>
+    <HeaderPage />
+    <div class="mt-20 mb-10">
+        <p class="font-title text-3xl lg:text-6xl xl:text-6xl text-center">Conditions Générales d'Utilisations</p>
+    </div>
+    <div class="w-[50%] h-1 bg-black m-10 mx-auto"></div>
+    <p>Bienvenue sur le site internet de LAZYDOCS. Veuillez lire attentivement ces conditions générales d'utilisation (ci-après dénommées les "CGU") avant d'utiliser notre site internet et nos services. En utilisant notre site, vous acceptez implicitement ces CGU. Si vous n'acceptez pas ces CGU, veuillez ne pas utiliser notre site.
+    </p>
+    <p><strong>Description du service :</strong></p>
+    <p>Le site internet LAZYDOCS, exploité par LAZYDOCS, propose un service de remplissage de papiers administratifs en ligne. Ce service permet aux utilisateurs de remplir et de soumettre des formulaires administratifs en ligne en fournissant les informations personnelles requises.
+    </p>
+    <p><strong>Utilisation du site :</strong></p>
+    <p>En utilisant notre site, vous vous engagez à ne pas utiliser le service à des fins illégales ou interdites par ces CGU. Vous acceptez de vous conformer à toutes les lois, règles et réglementations applicables.
+    </p>
+    <p><strong>Compte utilisateur :</strong></p>
+    <p>Certains services de notre site peuvent nécessiter la création d'un compte utilisateur. Vous êtes responsable de maintenir la confidentialité de vos identifiants de connexion et de toutes les activités qui se déroulent sous votre compte.</p>
+    <p><strong>Propriété intellectuelle :</strong></p>
+    <p></p>
+    <p><strong></strong></p>
+    <p></p>
+    <p><strong></strong></p>
+    <p></p>
+    <p><strong></strong></p>
+    <p></p>
+
+    <div class="p-5 w-full lg:w-1/2 text-blue-500 underline">
+        <RouterLink to="/politique-de-confidentialite">
+        <p>Politique de confidentialité</p>
+        </RouterLink>
+        <RouterLink to="/mentions-legales">
+        <p>Mentions légales</p>
+        </RouterLink>
+        <RouterLink to="/charte-d-utilisation-et-de-respect-de-la-vie-privee">
+        <p>Charte d'Utilisation et de Respect de la Vie Privée</p>
+        </RouterLink>
+        <RouterLink to="/politique-relative-aux-cookies-et-aux-données-personnelles">
+        <p>Politique relative aux cookies et aux données personnelles</p>
+        </RouterLink>
+    </div>
+    <FooterPage />
+</template>
