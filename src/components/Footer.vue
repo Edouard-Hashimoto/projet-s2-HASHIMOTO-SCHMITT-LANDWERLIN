@@ -13,10 +13,14 @@
         </div>
       </div>
 
-      <div class="flex flex-col space-y-1items-start mt-10 ml-4">
+      <div class="flex flex-col lg:w-[900px] sm: space-y-1items-start mt-10 ml-4">
         <router-link to="/connexion" class="text-2xl">Connexion</router-link>
         <router-link to="/contact" class="text-2xl">Contact</router-link>
         <router-link to="/mentions-legales" class="text-2xl">Mentions légales</router-link>
+        <router-link to="/politique-de-confidentialite" class="text-2xl">Politique de confidentialité</router-link>
+        <router-link to="/conditions-generales-d-utilisations" class="text-2xl">Conditions Générales d'Utilisations</router-link>
+        <router-link to="/charte-d-utilisation-et-de-respect-de-la-vie-privee" class="text-2xl">Charte d'Utilisation et de Respect de la Vie Privée</router-link>
+        <router-link to="/politique-relative-aux-cookies-et-aux-donnees-personnelles" class="text-2xl">Politique relative aux cookies et aux données personnelles</router-link>
       </div>
 
       <div class="flex justify-end items-start hidden lg:flex ">

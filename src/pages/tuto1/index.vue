@@ -9,7 +9,7 @@ import FooterPage from '@/components/Footer.vue'
     class="flex flex-col justify-center items-center h-[600px] bg-[url('/img/fondtuto1.png')] bg-cover"
   >
     <p class="text-4xl lg:text-4xl xl:text-6xl text-center lg:text-right lg:pl-[900px]">
-      Demande de carte d’identité
+      Demande de carte d’identité/passport
     </p>
     </div>
   <div class="w-full grid p-8 lg:grid-cols-2">
@@ -61,7 +61,7 @@ import FooterPage from '@/components/Footer.vue'
       Consultez nos offres ci-dessous :
     </p>
     <div class="flex items-center justify-center mb-20">
-        <RouterLin to="/offre"></RouterLin>
+        <RouterLink to="/offre">
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
@@ -79,7 +79,7 @@ import FooterPage from '@/components/Footer.vue'
           class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-16 z-10"
           >Nos Offres</span
         >
-      </button>
+      </button></RouterLink>
     </div>
   </div>
   <FooterPage />

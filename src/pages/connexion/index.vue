@@ -3,7 +3,7 @@
   <div class="flex h-[800px] items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
     <div class="w-full max-w-md space-y-8">
       <div v-if="currentUser">
-        <h1>Welcome {{ currentUser?.name }}</h1>
+        <h1 class="lg:text-4xl">Welcome {{ currentUser?.name }}</h1>
         <div>
           <button
             type="button"
@@ -15,7 +15,7 @@
           <button
             type="button"
             @click="goToProfil"
-            class="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+            class="rounded-md bg-green-600 ml-4 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
           >
             Voir Mon Profil
           </button>
@@ -139,7 +139,7 @@ const loginMode = ref(true)
 const router = useRouter()
 
 onMounted(async () => {
-  pb = new PocketBase('http://127.0.0.1:8090')
+  pb = new PocketBase('https://lazydocs.edouardhashimoto.fr:443')
 
   pb.authStore.onChange(() => {
     currentUser.value = pb.authStore.model

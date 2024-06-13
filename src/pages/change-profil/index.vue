@@ -32,7 +32,7 @@ const newEmail = ref('');
 
 const updateProfile = async () => {
   try {
-    const pb = new PocketBase('http://127.0.0.1:8090');
+    const pb = new PocketBase('https://lazydocs.edouardhashimoto.fr:443');
 
     // Vérifiez si l'utilisateur est authentifié
     if (!pb.authStore.isValid) {

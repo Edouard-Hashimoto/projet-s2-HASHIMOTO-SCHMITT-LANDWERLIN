@@ -43,7 +43,7 @@ const router = useRouter()
 const currentUser = ref(null)
 
 onMounted(() => {
-  const pb = new PocketBase('http://127.0.0.1:8090')
+  const pb = new PocketBase('https://lazydocs.edouardhashimoto.fr:443')
   currentUser.value = pb.authStore.model
 })
 

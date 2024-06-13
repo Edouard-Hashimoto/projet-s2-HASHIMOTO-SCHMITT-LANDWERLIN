@@ -33,7 +33,7 @@ import FooterPage from '@/components/Footer.vue'
         <RouterLink to="/charte-d-utilisation-et-de-respect-de-la-vie-privee">
         <p>Charte d'Utilisation et de Respect de la Vie Privée</p>
         </RouterLink>
-        <RouterLink to="/politique-relative-aux-cookies-et-aux-données-personnelles">
+        <RouterLink to="/politique-relative-aux-cookies-et-aux-donnees-personnelles">
         <p>Politique relative aux cookies et aux données personnelles</p>
         </RouterLink>
     </div>

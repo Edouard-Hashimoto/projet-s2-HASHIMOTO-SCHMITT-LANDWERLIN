@@ -1,6 +1,6 @@
 import PocketBase from 'pocketbase'
 
-const pb = new PocketBase('http://localhost:8090') // Remplacez par l'URL de votre PocketBase
+const pb = new PocketBase('https://lazydocs.edouardhashimoto.fr:443') // Remplacez par l'URL de votre PocketBase
 
 export const addTuto = async (nom: string, img: File, description: string) => {
   const formData = new FormData()

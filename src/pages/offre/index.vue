@@ -24,11 +24,12 @@ import FooterPage from '@/components/Footer.vue'
           </div>
           <div class="mt-6">
             <p>
-              <span class="text-5xl font-light tracking-tight text-[#72EF70]"> 4.99€ </span>
+              <span class="text-5xl font-light tracking-tight text-[#72EF70]"> 6.99€ </span>
             </p>
           </div>
         </div>
       </div>
+      <RouterLink to="/aide-remplissage">
       <div class="flex px-6 pb-8 sm:px-8">
         <div
           aria-describedby="tier-company"
@@ -37,7 +38,7 @@ import FooterPage from '@/components/Footer.vue'
         >
           J’en profite
         </div>
-      </div>
+      </div></RouterLink>
     </div>
     <div class="flex flex-col bg-white rounded-3xl border border-black w-80 lg:ml-20">
       <div class="px-6 py-8 sm:p-10 sm:pb-6">
@@ -52,12 +53,13 @@ import FooterPage from '@/components/Footer.vue'
           </div>
           <div class="mt-6">
             <p>
-              <span class="text-5xl font-light tracking-tight text-[#B588FF]"> 9.99€ </span>
+              <span class="text-5xl font-light tracking-tight text-[#B588FF]"> 12.99€ </span>
               <span class="text-base font-medium text-gray-500"> /mo </span>
             </p>
           </div>
         </div>
       </div>
+      <RouterLink to="/aide-remplissage">
       <div class="flex px-6 pb-8 sm:px-8">
         <div
           aria-describedby="tier-company"
@@ -66,7 +68,7 @@ import FooterPage from '@/components/Footer.vue'
         >
           J’en profite
         </div>
-      </div>
+      </div></RouterLink>
     </div>
     <div class="flex flex-col bg-white rounded-3xl border border-black w-80 lg:ml-20">
       <div class="px-6 py-8 sm:p-10 sm:pb-6">

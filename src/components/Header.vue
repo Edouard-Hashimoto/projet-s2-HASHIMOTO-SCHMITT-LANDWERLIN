@@ -56,16 +56,16 @@ function closeMenu() {
         </li>
         <li>
           <RouterLink class="font-title block p-4 rounded-lg" to="/alltuto" @click="closeMenu"
-            >Tuto</RouterLink
+            >Tutos</RouterLink
           >
         </li>
         <li>
-          <RouterLink class="font-title block p-4 rounded-lg" to="/frise" @click="closeMenu"
+          <RouterLink class="font-title block p-4 rounded-lg" to="/aide-remplissage" @click="closeMenu"
             >Aide</RouterLink
           >
         </li>
         <li>
-          <RouterLink class="font-title block p-4 rounded-lg" to="/AjoutTuto" @click="closeMenu"
+          <RouterLink class="font-title block p-4 rounded-lg" to="/addTuto" @click="closeMenu"
             >Ajouter Tuto</RouterLink
           >
         </li>

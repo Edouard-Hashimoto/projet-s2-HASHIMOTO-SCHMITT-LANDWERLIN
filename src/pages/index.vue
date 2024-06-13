@@ -209,7 +209,7 @@ import { RouterLink } from 'vue-router';
           </div>
           <div class="mt-6">
             <p>
-              <span class="text-5xl font-light tracking-tight text-[#72EF70]"> 4.99€ </span>
+              <span class="text-5xl font-light tracking-tight text-[#72EF70]"> 6.99€ </span>
             </p>
           </div>
         </div>
@@ -237,7 +237,7 @@ import { RouterLink } from 'vue-router';
           </div>
           <div class="mt-6">
             <p>
-              <span class="text-5xl font-light tracking-tight text-[#B588FF]"> 9.99€ </span>
+              <span class="text-5xl font-light tracking-tight text-[#B588FF]"> 12.99€ </span>
               <span class="text-base font-medium text-gray-500"> /mo </span>
             </p>
           </div>
@@ -261,13 +261,14 @@ import { RouterLink } from 'vue-router';
   </div>
   <div class="w-[50%] h-1 bg-black m-10 mx-auto"></div>
   <div class="flex items-center justify-center mb-20">
+    <RouterLink to="/contact">
     <button
       class="w-60 h-16 lg:w-80 lg:h-20 bg-white cursor-pointer rounded-3xl border-2 border-[#000000] shadow-[inset0px-2px0px_1px#9748FF] group hover:bg-[#000000] transition duration-300 ease-in-out"
     >
       <span class="font-medium text-2xl lg:text-4xl text-[#000000] group-hover:text-white"
         >Contactez-nous !
       </span>
-    </button>
+    </button></RouterLink>
   </div>
   <FooterPage />
 </template>

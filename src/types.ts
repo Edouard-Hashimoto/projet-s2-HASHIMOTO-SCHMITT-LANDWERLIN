@@ -15,7 +15,7 @@ export interface MaisonRecord {
 }
 
 export interface AgentRecord {
-  Nom : string
-  Prenom : string
-  Email : string
+  Nom: string
+  Prenom: string
+  Email: string
 }

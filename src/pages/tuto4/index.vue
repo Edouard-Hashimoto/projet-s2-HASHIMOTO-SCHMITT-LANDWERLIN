@@ -84,7 +84,7 @@ import FooterPage from '@/components/Footer.vue'
       Consultez nos offres ci-dessous :
     </p>
     <div class="flex items-center justify-center mb-20">
-      <RouterLin to="/offre"></RouterLin>
+      <RouterLink to="/offre">
       <button
         class="overflow-hidden relative w-60 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
       >
@@ -102,7 +102,7 @@ import FooterPage from '@/components/Footer.vue'
           class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-16 z-10"
           >Nos Offres</span
         >
-      </button>
+      </button></RouterLink>
     </div>
   </div>
   <FooterPage />

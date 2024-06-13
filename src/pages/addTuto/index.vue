@@ -21,7 +21,7 @@ const addTutorial = async () => {
       formData.append('img', file.value)
     }
 
-    const response = await fetch('http://127.0.0.1:8090/api/collections/tuto/records', {
+    const response = await fetch('https://lazydocs.edouardhashimoto.fr:443/api/collections/tuto/records', {
       method: 'POST',
       body: formData
     })
@@ -43,7 +43,7 @@ const addTutorial = async () => {
 
 const fetchTutorials = async () => {
   try {
-    const response = await fetch('http://127.0.0.1:8090/api/collections/tuto/records')
+    const response = await fetch('https://lazydocs.edouardhashimoto.fr:443/api/collections/tuto/records')
 
     if (!response.ok) {
       throw new Error('Erreur lors de la récupération des tutoriels')
@@ -57,7 +57,7 @@ const fetchTutorials = async () => {
 }
 
 const getImageUrl = (fileName: string) => {
-  const url = `http://127.0.0.1:8090/api/files/tuto/${fileName}`
+  const url = `https://lazydocs.edouardhashimoto.fr:443/api/files/tuto/${fileName}`
   console.log('Generated Image URL:', url)
   return url
 }
@@ -126,7 +126,7 @@ onMounted(fetchTutorials)
             >
           </button>
         </form>
-        <RouterLink to="tutoall" class="text-blue-500 underline">Voir les autres</RouterLink>
+        <RouterLink to="tutoall" class="text-blue-500 underline">Voir les tutoriels</RouterLink>
       </div>
     </div>
   </div>
