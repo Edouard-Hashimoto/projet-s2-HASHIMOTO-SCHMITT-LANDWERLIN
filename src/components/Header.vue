@@ -15,7 +15,7 @@ function closeMenu() {
 
 <template>
   <header
-    class="flex items-center w-full justify-between px-4 gap-8 border-b-2 border-black h-20 bg-[#ffffff]"
+    class="flex items-center w-full justify-between px-4 gap-8 border-b-2 border-black h-20 bg-white"
   >
     <RouterLink to="/">
       <img src="/public/img/logoheader.png" class="w-20" />

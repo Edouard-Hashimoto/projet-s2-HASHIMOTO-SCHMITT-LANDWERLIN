@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router';
 <template>
   <HeaderPage />
   <div
-    class="flex flex-col justify-centerh-[600px] bg-[url('/img/fondaccueil.webp')] bg-cover bg-opacity-50"
+    class="flex flex-col justify-center h-[600px] bg-[url('/img/fondaccueil.webp')] bg-cover bg-opacity-50"
   >
     <p class="text-4xl lg:text-4xl xl:text-6xl text-center lg:text-right lg:right lg:mr-72 lg:mt-40">
       Le site qui vous <br />
@@ -21,7 +21,7 @@ import { RouterLink } from 'vue-router';
       Une Assistance Administrative Personnalisée !
     </p>
   </div>
-  <div class="w-[50%] h-[5px] bg-black m-10 mx-auto"></div>
+  <div class="w-1/2 h-[5px] bg-black m-10 mx-auto"></div>
   <div class="flex flex-col lg:flex-row justify-center items-center gap-4 mb-20">
     <div
       class="border border-gray-300 p-4 rounded-lg shadow-lg w-96 flex flex-col items-center justify-center bg-[#E7E7E7]"
