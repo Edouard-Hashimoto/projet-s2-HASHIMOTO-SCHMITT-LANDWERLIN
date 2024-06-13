@@ -68,7 +68,7 @@ onMounted(fetchTutorials)
 <template>
   <HeaderPage />
   <div
-    class="h-96  my-80 flex items-center justify-center bg-gradient from-slate-500 via-purple-500 to-purple-300"
+    class="h-96  lg:my-80 flex items-center justify-center bg-gradient from-slate-500 via-purple-500 to-purple-300"
   >
     <div class="relative">
       <div
